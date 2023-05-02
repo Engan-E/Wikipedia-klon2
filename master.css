@@ -1,0 +1,212 @@
+
+body{
+
+background-color: rgb(255, 255, 240);
+width: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 6rem;
+
+}
+
+p{
+  font-family: 2rem;
+}
+
+.left{
+  display: block;
+  width: 11rem;
+  height: 100rem;
+
+}
+
+.wikiloga{
+display: block;
+width: 90%;
+margin: auto;
+
+}
+
+.logintxt{
+display: flex;
+margin-left: auto;
+font-size: 0.9rem;
+margin-top: 0.2rem;
+margin-bottom: 0;
+margin-right: 0.5rem;
+height: 2rem;
+
+
+}
+
+.logintxt p{
+  padding-left: 0.5rem;
+
+}
+
+.serchbarArea{
+display: flex;
+position: absolute;
+top: 3.2rem;
+width: 99%;
+
+}
+
+.serchbar{
+  display: flex;
+  width: 14rem;
+  height: 1.4rem;
+  border: 1px solid black;
+  border-right: none;
+  margin-left: auto;
+
+
+}
+
+.serchbar:focus-visible{
+  outline: none;
+
+}
+
+.serchbarImg{
+  width: 1.3rem;
+  height: 1.5rem;
+ border: 1px solid black;
+ border-left: none;
+ padding: auto;
+}
+
+main{
+  display: block;
+  position: absolute;
+  height: 100rem;
+  width: 87.4%;
+  left: 11rem;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid black;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: auto;
+  margin-right: 0;
+  top: 4rem;
+  height: 20%;
+  float: right;
+  border: 1px solid black;
+
+
+}
+
+.mainImg{
+  width: 90%;
+  height: 13rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+
+}
+
+.title{
+  display: block;
+  margin-left: 3%;
+  height: 3rem;
+  margin-bottom: 3%;
+  border-bottom: 1px solid black;
+  margin-right: 3%;
+
+}
+
+.ingress{
+  width: 74%;
+  margin: 0;
+  float: left;
+  font-size: 1.2rem;
+
+}
+
+.ingress p{
+  margin: 3%;
+}
+
+.inehåll{
+  display: block;
+  width: 30%;
+  height: 30rem;
+  float: left;
+  margin: 2%;
+  margin-right: auto;
+  border: 1px solid black;
+
+}
+
+.inehåll li{
+  margin-bottom: 1rem;
+}
+
+.inehåll h2{
+  display: block;
+  width: 5rem;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.under_rubrik{
+  width: 90%;
+  margin-top: 0%;
+  float: left;
+  margin-left: 2%;
+}
+
+.översikt{
+  display: block;
+  width: 90%;
+  height: auto;
+  float: left;
+  margin-left: 2%;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.översikt p {
+  font-size: 1.2rem;
+}
+
+.inehåll a{
+  display: block;
+  margin-left: 0.5rem;
+
+}
+
+.rightCollum{
+
+  width: 100%;
+  border-top: 1px solid black;
+  height: 20%;;
+  margin-top: 5%;
+}
+
+.rightCollum p{
+  margin-bottom: 0;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.historia{
+  display: block;
+  width: auto;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 3rem;
+}
